@@ -1,6 +1,8 @@
 # TKC_Scraper-js_extension
 Output and store scores in Excel for each season in the resources tab of ubisoft stats (Rainbow Six Siege).
 
+> `Warning` Dirty Source Code
+
 ## How To Work
 1. [Visit Ubisoft Stats](https://www.ubisoft.com/en-us/game/rainbow-six/siege/stats) and proceed with login.
 2. Click on the Seasons tab.
