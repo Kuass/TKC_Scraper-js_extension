@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "TKC Scraper",
+  "description": "for TKC",
+  "version": "0.0.1",
+
+  "web_accessible_resources": [
+    "*"
+  ],
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "tabs",
+    "<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/48.png"
+  },
+
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png",
+    "128": "icons/128.png",
+    "256": "icons/256.png"
+  }
+}
