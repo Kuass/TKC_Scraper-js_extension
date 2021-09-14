@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
     <link rel="stylesheet" href="./style/popup.css">
     <script src="popup.js"></script>
+    <script lang="javascript" src="dist/xlsx.full.min.js"></script>
 </head>
+
 <body>
-    <div style="width: 100%; display:flex; justify-content: center; align-items: center">
-        <img src="./img/spotify-logo-with-write-text.png">
+    <div style="text-align: center;">
+        <img class="logo" src="./img/tkc_clan_logo.png" width="82">
     </div>
     <br>
-    <button id="getting-data">Getting Data</button>
+    <a class="button"
+        href="https://www.ubisoft.com/ko-kr/game/rainbow-six/siege/stats/summary/99c8d4ea-5a97-41d1-b275-220d54ebc08d">Go
+        Ubisoft Stats</a>
+    <button class="cursor-pointer" id="start_scrap">Start Scrap</button>
 </body>
+
 </html>

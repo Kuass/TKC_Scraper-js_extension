@@ -1,5 +1,14 @@
 body {
     width: 230px;
-    min-height: 250px;
+    min-height: 180px;
     background-color: rgb(18,18,18);
+}
+
+.logo { 
+    display: block; 
+    margin: 0px auto; 
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
